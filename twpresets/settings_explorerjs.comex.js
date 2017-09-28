@@ -22,7 +22,7 @@ TW.conf = (function(TW){
   // ...or remote bridge to default source api ajax queries
   TWConf.sourceAPI={}
   TWConf.sourceAPI["nodetypes"] = {"node0": "Keywords", "node1": "Scholars" }
-  TWConf.sourceAPI["forNormalQuery"] = "services/api/multimatch"
+  TWConf.sourceAPI["forNormalQuery"] = "services/api/graph"
   TWConf.sourceAPI["forFilteredQuery"] = "services/api/multimatch"
 
 
